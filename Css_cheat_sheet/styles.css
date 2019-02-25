@@ -1,0 +1,42 @@
+body{
+    color:white;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top:20px;
+    margin-bottom:20px;
+ 
+
+    padding:10px;
+
+}
+
+.box1{
+    border: 2px red solid;
+    background-color: black;
+}
+
+.box1 h1{
+    color: yellow;
+}
+
+.box2{
+    background-color: whitesmoke;
+    border: 5px dotted green;
+    color:black;
+
+}
+
+.lista{
+    color: black;
+    border-radius: 20px;
+    border: 10px solid red;
+}
+
+.lista h3{
+text-align: center;
+}
