@@ -37,6 +37,11 @@ body{
     border: 10px solid red;
 }
 
+.lista ul{
+    list-style-image: url(checkCopy.png);
+    padding-left: 30px;
+}
+
 .lista h3{
 text-align: center;
 }
