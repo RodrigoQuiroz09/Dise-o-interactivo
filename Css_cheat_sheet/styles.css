@@ -48,20 +48,36 @@ text-align: center;
 
 .block{
     border: 2px solid gray;
-    width: 32%;
+    width: 30%;
     float: left;
-
-
-}
-
-.block h3{
- text-align: center;
-
-}
-
-.block p{
     padding-left: 10px;
     padding-right: 10px;
     font-size: 20px;
-    
+    text-align: center;
+
 }
+
+
+
+.container_flex{
+
+    width: 80%;
+    margin: auto;
+    margin-top:20px;
+    margin-bottom:20px;
+ 
+
+    padding:10px;
+    display: flex;
+}
+.block_flex{
+    border: 1px solid gray;
+   
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+ 
+
+}
+
