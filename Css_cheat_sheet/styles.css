@@ -1,5 +1,5 @@
 body{
-    color:white;
+    color:black;
     font: normal 16px Arial, Helvetica, sans-serif;
     margin: 30px;
 }
@@ -44,4 +44,24 @@ body{
 
 .lista h3{
 text-align: center;
+}
+
+.block{
+    border: 2px solid gray;
+    width: 32%;
+    float: left;
+
+
+}
+
+.block h3{
+ text-align: center;
+
+}
+
+.block p{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    
 }
