@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+
+    font-weight: normal;
+
+    color: white;
+
+}
+header{
+    background-color: #31639c;
+}
+.container{
+    width:80%;
+    margin:auto;
+}
+
+.column{
+
+
+}
+
+.row{
+    display: flex;
+    justify-content:space-between;
+}
+
+header ul{
+    display:flex;
+    list-style: none;
+    padding-top: 16px;
+}
+
+header li{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.content{
+    background: url("../Images/office.jpg") no-repeat;
+    min-height: 500px;
+    background-size: cover;
+
+    display: flex;
+    text-align: center;
+}
+
+.content_opacity{
+    text-shadow:2px 2px #000000;
+    font-size: 30px;
+}
+
+.subscribe{
+    background-color: #31639c;
+    display: flex;
+    font-size: 20px;
+
+}
+
+.subscribe .container{
+    display: flex;
+    justify-content: space-between;
+}
+.subscribe input[type="email"]{
+    height: 30px;
+    width: 250px;
+    align-self: center;
+}
+.subscribe button{
+    height: 35px;
+    background: #716cac;
+    border: 0px;
+    color: white;
+}
+.subscribe form{
+
+    flex-direction: row;
+    align-content: center;
+    margin-top: 13px;
+}
+.services{
+    color: #000000;
+
+}
+.services img{
+    width: 200px;
+    margin-top:5px;
+}
+
+.services .column{
+    text-align: center;
+    flex: 1;
+}
+
+footer{
+ 
+    text-align: center;
+    background-color: #31639c;
+
+    min-height: 60px;
+    padding: 20px;
+
+
+}
